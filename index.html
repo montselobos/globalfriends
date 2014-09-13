@@ -50,7 +50,7 @@
                     
                     <hr />
 
-                    <h3> The task: </h3>
+                    <h2> The task: </h2>
                     <em>
                     Create a mobile app for classifying your friendships.
                         </em>
@@ -62,11 +62,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <hr/>
-                               <h3>1. Understanding the problem</h3>
+                               <h2>1. Understanding the problem</h2>
                             <hr/>
 
-                              
-                      
                            <p>To understand the problem space I conducted individual interviews with 5 participants whose ages ranged between 22 and 30 years old.</p>
 
 <p>The interview centered around which distinctions they make between their friends, how they currently group them or categorize them and for which purposes.</p>
@@ -87,19 +85,22 @@ Some interesting findings of this exercise were:</p>
     <div class="item active">
       <img src="bootstrap/img/groups.png"/>
       <div class="carousel-caption">
-        hola
+        <h3>'categories' and 'groups'</h3>
+        <p>1. People use both 'categories' and 'groups' to organize their friends:<br /> Some friends may share a category (women in tech) but they're not part of a 'group' (high school friends)</p>
       </div>
     </div>
     <div class="item">
       <img src="bootstrap/img/group-bff.png"/>
       <div class="carousel-caption">
-        chao
+        <h3>People in groups are interconnected</h3>
+        <p> Group members know each other and are friends in most cases.</p>
       </div>
     </div>
     <div class="item">
       <img src="bootstrap/img/group-extra.png"/>
       <div class="carousel-caption">
-        ...
+         <h3>Subgroups: e.g: BFF</h3>
+        <p>Each distinct group of friends has different sub groups based on emotional closeness or interests in common</p>
       </div>
     </div>
   </div>
@@ -113,14 +114,10 @@ Some interesting findings of this exercise were:</p>
   </a>
 </div>
 
-<a class="row" href="bootstrap/img/groups.png" target="_blank"> <img class=" col-sm-10 col-xs-12 col-md-10 col-lg-10" src="bootstrap/img/groups.png"/> </a>  
 
-<p> 1. People use both 'categories' and 'groups' to organize their friends<br />
- 2. <br />
- * Some friends may share a category (women in tech) but they're not part of a 'group' (high school friends)<br />
- * Group members know each other and are friends in most cases.<br />
+<p> 
  3. Distinct categories of friends are based in the friendship's origin (temporal/location based/ institutional)<br />
- 4. Each distinct group of friends has different sub groups based on emotional closeness or interests in common<br />
+ 4. <br />
  5. Each distinct group of friends has a group or 'friends by association' attached to it, made of friends of friends or partners of friends.</p>
 
 <a class="row" href="bootstrap/img/affinity.png" target="_blank"> <img class=" col-sm-10 col-xs-12 col-md-10 col-lg-10" src="bootstrap/img/affinity.png"/> </a>  
@@ -147,66 +144,129 @@ Most of these people struggle with language and location issues when posting or 
 <p>
 Some other common use cases were:</p>
 
-<p>'I am very interested in following career-related updates from some of my school mates, but I really don't care about their babies or dogs&quot;</p>
+<em>
+  <ul>
+  <li>'I am very interested in following career-related updates from some of my school mates, but I really don't care about their babies or dogs&quot;</li>
 
-<p>Grouping people to organize an event or for communicating for a determined period of time, like a group of friends attending the same conference.</p>
+<li>Grouping people to organize an event or for communicating for a determined period of time, like a group of friends attending the same conference.</li>
 
-<p>Sending out invitations for birthday parties: selecting the list of invitees and sending the invites through the proper channel.</p>
+<li>Sending out invitations for birthday parties: selecting the list of invitees and sending the invites through the proper channel.</li>
+</em>
+</ul>
+                            <hr/>
+                               <h2>Persona</h2>
+                            <hr/>
+
+                          <div class="row well">
+                        
+                           <div class="col-md-3 col-md-offset-1">
+                            <center><img class="bordernone" src="bootstrap/img/ana.png"/>
+                             
+                           </center>
+                          </div>
+                          <div class="col-md-7">
+                            <h2>Ana Manzur</h2>
+                          
+                            <p> Ana is a 24-years-old international student in Columbia University. Originally from Colombia, It is very important for her to stay in touch with her family and friends, but without letting that become a distraction from her studies.</p>
+                            <p>Just by moving to NY to join her masters program Ana expanded her friend base significantly and she is currently discovering what she has in common with each of them</p>
+                            <p>Her main goal is to saty informed of academic and social events related to her new program, bond with her new friends in the city while keeping in touch with her 'back-home' friends as much as possible.</p>
+
+                        </div>
+
                            
 
-                            <br />
-                            <p>
-                                Let me beak this for you:
-                            </p>
+                           
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr/>
+                               <h2>2. Goal and content strategy</h2>
+                            <hr/>
+                            <h3>GOAL</h3>
+                            To organize friendships based on <strong>origin, language and current location</strong> in order to:
+                            <ol>
+                              <li> Filter the notifications, updates and type of content I receive from them</li>
+                              <li> Filter the content I share with different groups and categories</li>
+                              <li> Make sure that my messages do not get mistakenly auto-corrected by my phone</li>
 
-                            <p>Although what makes a person feel 'at home' varies from person to person, there are some common comfort elements that we can leverage through the use of home automation and media streaming. 
-                           </p>
-                          
-                           <p>
-                            I set my design within the scenario of a business trip. (You can check the scenario <a href="scenario.html">here</a>).
-                           </p>
+                            </ol>
+                            <br />
+
+                            <h3>CONTENT STRATEGY</h3>
+                            
+                             <div class="col-md-6">
+                              <div class="">
+                              <h4>Ana & Friends' Info</h4>
+                                <p> In order to achieve its goal, the app must have access the following information about Anna and her friends:</p>
+                                <ul>
+                                   <li>Where is she from</li>
+                                   <li>Languages she speaks</li>
+                                   <li>Where is she currently based?</li>
+                                   <li>Current Location</li>
+                                   <li>Where did she attended college, hisghschool, etc</li>
+                                   <li>Previous jobs</li>
+                                   <li>Virtual groups she's part of</li>
+                                </ul>
+                              </div>
+
+
+                            
+   
+                             </div>
+                             <div class="col-md-6 well">
+                              
+                                <h4>Data Sources:</h4>
+<!--                                   Consolidate notifications from major social apps
+ -->                              <ul>
+                                     <li>Facebook</li>
+                                     <li>LinkedIn</li>
+                                     <li>etc</li>
+                                  </ul>
+                                  <p> Basic grouping can be done based on social media accounts' information. The user's input can perfect the groupings.</p>
+
+                                  <p> The system should be able to watch the user's behavior and learn from it. it should be able to identify: </p>
+                                    <li>Language settings when Anna chats with different friends</li>
+                                    <li>Mutual friends </li>
+                                    <li>New events or locations in common</li>
+                              </div>
+
+                                
+
+                             </div>
+                              
+                                <img class="col-sm-10 col-xs-12 col-md-10 col-lg-10" src="bootstrap/img/taxonomy-cont-view.png"/>
+                            
+
                       </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
                             <hr/>
-                               <h3>2. Goal and content strategy</h3>
+                               <h2>3. Taxonomy Map</h2>
                             <hr/>
+                            <img class="col-sm-10 col-xs-12 col-md-10 col-lg-10" src="bootstrap/img/taxonomy.png"/>
+
                   
                       </div>
                     </div>
+                      
                     <div class="row">
                         <div class="col-md-12">
                             <hr/>
-                               <h3>3. Taxonomy Map</h3>
+                               <h2>5. User flow <button type="button" class="btn btn-primary" style="float:right;">PDF</button></a></h2>
+                              
                             <hr/>
-                  
-                      </div>
-                    </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                            <hr/>
-                               <h3>4. Site Map</h3>
-                            <hr/>
-                  
-                      </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <hr/>
-                               <h3>5. User flow </h3>
-                            <hr/>
+                            <a href="bootstrap/img/wireframes-hotel-mlobos.pdf" target="_blank">
+                                <img class="col-sm-12 col-xs-12 col-md-12 col-lg-12" src="bootstrap/img/wire.png"/>
+                               </a> 
                   
                       </div>
                     </div>
                     
 
                   
-                <div class="col-md-12">
-                    <hr/>
-                       <h3>5. High-Fidelity Mockup </h3>
-                    <hr/>
-                </div>
+                
             </div> 
 
                 </div> 
@@ -215,12 +275,12 @@ Some other common use cases were:</p>
             
         </div>  
 
-        <div class="jumbotron green centered">
+      <!--   <div class="jumbotron green centered">
             <img class="bordernone" height="500px"  src="bootstrap/img/hi-fi.png"/>
 
-        </div>
+        </div> -->
         <footer class="jumbotron centered">
-            <h3> Thank you! </h3>
+            <h2> Thank you! </h2>
             <p> Please visit my portfolio at: </p>
             <p> <a href="http://montselobos.cl">www.montselobos.cl </a><p>
         </footer>
